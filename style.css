@@ -1,0 +1,88 @@
+body 
+{
+	font-family: "Segoe UI", "Helvetica", "Arial", San-serif;
+	font-size: 13px;
+	margin: 0;
+	background: #fcfefe url(images/bkg-blu.jpg) no-repeat center top ;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}		
+.wrapper {
+	margin: auto;
+	text-align: left;
+	width: 1100px;
+	position: relative;
+}
+#googleMap{
+    background: yellow;
+}
+.ban
+{
+	position: relative;
+	padding-left: 300px;
+}
+nav
+{
+    display: inline-block;
+    font-family: 'Trebuchet MS';
+	position: absolute;
+    font-family: 'Trebuchet ';
+    font-size: large;
+	width: 150px;
+    height: auto;
+	float: left;
+	border: 1px solid;
+    border-color: rgb(245, 90, 9);
+    border-collapse: separate;
+	z-index: 2;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+}
+p {
+	margin-bottom:18px;
+}
+section
+{
+
+	margin-left: 170px;
+	border: 1px solid blue;
+	display: block;
+	z-index: 2;
+    background: red;
+}
+footer
+{
+    margin-top: inherit;
+    margin-bottom: 1px;
+    position: relative;
+	text-align: right;
+    float: right;
+    font-size: 15px;
+    color:blue;
+}
+aside{
+    margin-left: auto;
+    float: left;
+    display: inline;
+    border-right: 3px solid;
+    border: 2px solid;
+    border-color: rgb(245, 90, 9);
+    width: auto;
+    height: auto;
+    background-color: #231d1d;
+}
+.description{
+	font-size: 1em;
+	margin-right: auto;
+	border-left: 3px solid;
+	border: 2px solid;
+	border-color: rgb(245, 90, 9);
+	width: 460px;
+	height: 430px;
+	float: right;
+	background-color: white;
+	text-align: center;
+}
