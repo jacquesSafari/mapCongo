@@ -14,10 +14,56 @@ function initialize() {
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+<meta charset = "utf-8"/>
+<link rel="stylesheet" href="style.css" type="text/css">
+
 </head>
 
 <body>
-<div id="googleMap" style="width:500px;height:380px;"></div>
+    <div class="wrapper">
+        <div class="inner">
+	        <header>
+		        <!--<div class = "banniere">
+			        <img src="images/banniere.jpg" alt = "Banniere">
+		        </div>-->
+		        <div class = "ban">
+			        <img src="images/banniere.png"/>
+		        </div>
+	        </header>
+	        <nav>
+		        <ul>
+			        <li><a href="mbandaka.html">Accueil</a></li>
+			        <li><a href="pictures.html">Photos</a></li>
+                    <li><a href="map.html">Map</a></li>
+			        <li><a href="about.html">A propos</a></li>
+		        </ul>
+	        </nav>
+
+	        <section>
+		        <!--<div id="googleMap" style="width:800px;height:380px;"></div>-->
+		        <article id = "googleMap" style="width:auto;height:380px";></article>
+		        <aside>
+					<marquee scrollamount="5" direction="right">
+                    	<div class="s1"><p><a href="#" target = "blank"> <!--<img src = "images/slide1" width="100" height="100" title="XXX"/></a></p></div>-->
+                        <div class="s1"><p><a href="#" target = "blank"> <img src="images/slide1.jpg" alt="" width = "460px" height="430px"/></a></p></div>
+                        <div class="s1"><p><a href="#" target = "blank"> <img src="images/slide2.jpg" alt="" width = "460px" height="430px"/></a></p></div>
+                        <div class="s1"><p><a href="#" target = "blank"> <img src="images/slide3.jpg" alt="" width = "460px" height="430px"/></a></p></div>
+                        <div class="s1"><p><a href="#" target = "blank"> <img src="images/slide4.jpg" alt="" width = "460px" height="430px"/></a></p></div>
+                    </marquee>
+			        
+		        </aside>
+                <div class="description">
+                    <p id ="textDesc">
+                        <b>Mbandaka</b> est une ville de la province de l'<b>Equateur</b> en <b>République Démocratique du Congo</b>, dont elle est la capitale provinciale.<br>La ville est une étape importante sur le fleuve entre les villes de <b>Kinshasa</b> et <b>Kisangani</b>.<br>La ville était anciennement connue sous le nom de <b>Coquilhatville</b> jusqu'en 1966. Deux communes, celle de Mbandaka et celle de Wandaka composent la ville, ayant chacune 10 quartiers. Un bloc de limonite à Wangata, faubourg de Mbandaka, inddique l'emplacement de la ligne de l'équateur.<br>La ville fut un théatre du massacre de nombreuses personnes en particulier d'origiine Hutu lors de la première guerre du Congo, du 13 au 17 Mai 1997. La ville héberge une véritable richesse botanique dans un parc aux confins de l'agglomération dit <b>Jardin botanique d'Eala</b> fondé par Léopold II en 1900. Ce dernier se situe à 7 Kilomètres du centre ville. Il est le jardin botanique le plus prestigieux de la République Démocratique du Congo. <a href="mbandaka.html">More...</a>
+                    </p>
+                </div>
+	        </section>
+
+	        <footer>
+		        <p>Copyright Sam & Cathy</p>
+	        </footer>
+        </div>
+     </div>
 </body>
 
 </html>
